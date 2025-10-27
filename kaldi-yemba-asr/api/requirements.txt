@@ -1,0 +1,6 @@
+fastapi==0.110.0
+uvicorn==0.30.0
+soundfile==0.12.1
+vosk==0.3.45
+numpy==1.26.4
+
