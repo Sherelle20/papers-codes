@@ -6,12 +6,12 @@ import json
 import numpy as np
 import io
 
-app = FastAPI(title="Kaldi HMM ASR API", version="1.0")
+app = FastAPI(title="Kaldi HMM ASR API", version="1.0")  
 
 # Charger le modèle Vosk (basé sur ton modèle HMM)
-MODEL_PATH = "model"
+MODEL_PATH = "./model"
 print(f"📦 Chargement du modèle depuis : le dossier ./model")
-model = Model(model)
+model = Model(MODEL_PATH)
 
 @app.get("/")
 def home():
