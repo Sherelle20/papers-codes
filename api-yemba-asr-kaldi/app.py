@@ -10,7 +10,7 @@ app = FastAPI(title="Kaldi HMM ASR API", version="1.0")
 
 # Charger le modèle Vosk (basé sur ton modèle HMM)
 MODEL_PATH = "model"
-print(f"📦 Chargement du modèle depuis : {./model}")
+print(f"📦 Chargement du modèle depuis : le dossier ./model")
 model = Model(model)
 
 @app.get("/")
