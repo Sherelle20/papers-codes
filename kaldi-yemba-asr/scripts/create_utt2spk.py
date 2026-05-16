@@ -26,8 +26,7 @@ def read_text_segments(segments_file, output_file):
             output_f.write(output_line)
             print(f"Added to {output_file}: {output_line.strip()}")
 
-#main_data='/home/sherelle/Documents/train'
-projet_dir = '/home/sherelle/Documents/Stage5GI/implementation/Kaldi/kaldi-master/kaldi-master/egs/YembaEgraASR/'
+projet_dir = 'kaldi-master/kaldi-master/egs/YembaEgraASR/'
 
 
 # Exemple d'utilisation
