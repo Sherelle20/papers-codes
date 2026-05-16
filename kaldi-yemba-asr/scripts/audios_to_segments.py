@@ -45,9 +45,9 @@ def generate_segments(directory, output_segments_file):
         for segment in segments:
             segments_file.write(segment + '\n')
 
-main_data='/home/sherelle/Documents/yemba_dataset_1'
+main_data='yemba_dataset_1'
 
-projet_dir = '/home/sherelle/Documents/Stage5GI/implementation/Kaldi/kaldi-master/kaldi-master/egs/YembaEgraASR/'
+projet_dir = '/kaldi-master/kaldi-master/egs/YembaEgraASR/'
 
 #folder = main_data
 
