@@ -32,13 +32,12 @@ def generate_wav_scp(directory, output_scp_file):
         for entry in entries:
             scp_file.write(entry + '\n')
 
-main_data= '/home/sherelle/Documents/yemba_dataset_1'
-projet_dir = '/home/sherelle/Documents/Stage5GI/implementation/Kaldi/kaldi-master/kaldi-master/egs/YembaEgraASR/'
+main_data= 'yemba_dataset_1'
+projet_dir = 'kaldi-master/kaldi-master/egs/YembaEgraASR/'
 
 #train_data=main_data+'/yemba_all'
 
 
-# Exemple d'utilisation
 directory = main_data # Remplacez par le chemin vers votre dossier contenant les fichiers .wav
 output_scp_file = projet_dir+'data/wav.scp'  # Le fichier .scp à générer
 
