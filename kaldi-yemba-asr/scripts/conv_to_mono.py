@@ -38,8 +38,8 @@ def convert_folder_to_mono(input_folder, output_folder, new_frame_rate=16000):
 
 
 
-input_folder = '/home/sherelle/Documents/yemba_dataset'
-output_folder = '/home/sherelle/Documents/yemba_dataset_1'
+input_folder = 'yemba_dataset'
+output_folder = 'yemba_dataset_1'
 
 
 convert_folder_to_mono(input_folder, output_folder)
