@@ -38,11 +38,10 @@ def read_text_segments(text_file, segments_file, output_file):
                     print(f"Word ID {word_id} not found in text mapping")
 
 # Exemple d'utilisation
-#text_file = '/home/sherelle/Documents/Stage5GI/implementation/Kaldi/kaldi-master/kaldi-master/egs/teste1/help_scripts/text'  # Remplace avec ton chemin vers le fichier text
-segments_file ='/home/sherelle/Documents/Stage5GI/implementation/Kaldi/kaldi-master/kaldi-master/egs/YembaEgraASR/data/segments'  # Remplace avec ton chemin vers le fichier segments
-output_file = '/home/sherelle/Documents/Stage5GI/implementation/Kaldi/kaldi-master/kaldi-master/egs/YembaEgraASR/data/text'  # Remplace avec le chemin où tu veux créer le fichier text
+segments_file ='kaldi-master/kaldi-master/egs/YembaEgraASR/data/segments'  # Remplace avec ton chemin vers le fichier segments
+output_file = 'kaldi-master/kaldi-master/egs/YembaEgraASR/data/text'  # Remplace avec le chemin où tu veux créer le fichier text
 
-text_file = '/home/sherelle/Documents/Stage5GI/implementation/Kaldi/kaldi-master/kaldi-master/egs/teste1/help_scripts/text'  # Remplace avec ton chemin vers le fichier text
+text_file = 'kaldi-master/kaldi-master/egs/teste1/help_scripts/text'  # Remplace avec ton chemin vers le fichier text
 read_text_segments(segments_file=segments_file, output_file=output_file, text_file=text_file)
 """
 if __name__ == "__main__":
