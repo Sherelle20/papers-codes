@@ -1,8 +1,3 @@
-"""
-Renommage des fichiers audios 
-spkr_{i}_word_{j}_statement_{k}.wav ⇒ 000i_000j_000k.wav
-"""
-
 import os
 import re
 
@@ -34,6 +29,6 @@ def rename_files(directory):
             print(f"Renommé : {filename} -> {new_filename}")
 
 # Répertoire contenant les fichiers à renommer
-directory = '/home/sherelle/Documents/yemba_dataset_1'
+directory = 'yemba_dataset_1'
 
 rename_files(directory)
