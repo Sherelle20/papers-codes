@@ -41,7 +41,7 @@ def split_data(all_dir, train_dir, test_dir, test_size=0.2):
         with open(os.path.join(test_dir, file), 'w', encoding='utf-8') as f:
             f.writelines(test_lines)
 
-projet_dir = '/home/sherelle/Documents/Stage5GI/implementation/Kaldi/kaldi-master/kaldi-master/egs/YembaEgraASR/'
+projet_dir = 'kaldi-master/kaldi-master/egs/YembaEgraASR/'
 
 # Chemins vers vos répertoires de données
 all_dir = projet_dir + 'data'
