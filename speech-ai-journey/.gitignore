@@ -1,0 +1,33 @@
+# Données lourdes
+data/
+!data/samples/
+*.wav
+*.flac
+*.mp3
+*.opus
+
+# Modèles
+checkpoints/
+*.pt
+*.bin
+*.onnx
+*.gguf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
